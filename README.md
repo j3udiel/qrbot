@@ -1,9 +1,7 @@
 # Bot de Telegram que devuelve un QR en DigitalOcean
 
 Este repositorio contiene el código para un bot de Telegram diseñado para ser desplegado en DigitalOcean App Platform como un worker. El bot responde a los mensajes de los usuarios y realiza tareas específicas definidas en el código.
-
-Lo puedes probar aqui 
-[Link text] (telegram.me/tlgrm_qrbot) 
+[Link text](https://telegram.me/tlgrm_qrbot 'Bot aquí')
 
 ## Estructura del Proyecto
 

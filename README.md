@@ -18,3 +18,35 @@ Este script es el núcleo del bot. Utiliza la biblioteca `python-telegram-bot` p
 
 Este archivo contiene todas las dependencias necesarias para que el bot funcione correctamente. Incluye:
 
+
+Esto indica que la aplicación debe ejecutar `bot.py` en un worker.
+
+## Despliegue en DigitalOcean
+
+Para desplegar este bot en DigitalOcean App Platform como un worker, sigue estos pasos:
+
+1. **Crea una Aplicación en DigitalOcean App Platform.**
+   - Elige el método de fuente de tu código (por ejemplo, GitHub).
+   - Conecta tu repositorio y selecciona la rama correspondiente.
+
+2. **Configura la Aplicación como Worker.**
+   - En la configuración de la aplicación, elige 'Worker' en lugar de 'Web Service'.
+   - Asegúrate de que el `Procfile` esté configurado correctamente.
+
+3. **Establece las Variables de Entorno.**
+   - Configura todas las variables de entorno necesarias, como `TELEGRAM_TOKEN`.
+
+4. **Despliega la Aplicación.**
+   - Una vez configurada, procede a desplegar la aplicación.
+   - Monitorea el proceso de despliegue y verifica los logs en caso de errores.
+
+5. **Verificación.**
+   - Una vez desplegado, prueba el bot en Telegram para asegurarte de que funciona como se espera.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si deseas contribuir al proyecto, por favor crea un fork y envía tus cambios a través de un Pull Request.
+
+## Licencia
+
+Especifica aquí la licencia bajo la cual estás publicando el código (por ejemplo, MIT, GPL, etc.).

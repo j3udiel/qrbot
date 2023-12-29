@@ -2,6 +2,8 @@
 
 Este repositorio contiene el código para un bot de Telegram diseñado para ser desplegado en DigitalOcean App Platform como un worker. El bot responde a los mensajes de los usuarios y realiza tareas específicas definidas en el código.
 
+Lo puedes probar aqui 
+
 ## Estructura del Proyecto
 
 El proyecto consta de los siguientes archivos principales:
